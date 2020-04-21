@@ -7,6 +7,8 @@ fibonacci.append(a)
 fibonacci.append(b)
 even_fibbonacci.append(b)
 
+#Added a comment here to check some Magit features
+
 for jj in range(100)[2:]:
 
     fibonacci.append(fibonacci[jj-1]+fibonacci[jj-2])
@@ -19,5 +21,6 @@ for jj in range(100)[2:]:
 
 print even_fibbonacci
 print "sum of een fibbonacci numbers = {}".format(sum(even_fibbonacci))    
+
 #while fibbonacci <= 4000000:
     
